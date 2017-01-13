@@ -34,6 +34,8 @@ void Dequeue(Queue *Q)
         if(Q->size==0)
         {
                 printf("Queue1 is Empty\n");
+                /* If Queue size is zero then it is empty. So we cannot pop */
+				/* If Queue size is zero then it is empty. So we cannot pop */
                 return;
         }
         /* Removing an element is equivalent to incrementing index of front by one */
